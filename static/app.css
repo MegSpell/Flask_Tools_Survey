@@ -1,0 +1,67 @@
+* {
+  background-color: rgb(196, 211, 193);
+  font-family: Poppins;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(50, 151, 50);
+  font-size: 3rem;
+  text-shadow: 3px 3px 3px rgb(120, 233, 145);
+  margin-top: 150px;
+}
+
+#question-size {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgb(19, 55, 19);
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(40, 110, 40);
+  color: white;
+  border: 3px solid rgb(120, 233, 145);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(177, 223, 162);
+  color: rgb(19, 55, 19);
+  border: 2px solid rgb(40, 110, 40);
+  box-shadow: 4px 4px 4px rgb(40, 110, 40);
+}
+
+.messages {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 0, 0, 0.8);
+    white-space: pre-wrap; /* Handles \n to make new lines and spaces Thanks chatGPT! */
+}
+
+ul {
+  color: rgb(40, 110, 40);
+  list-style: none;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h2 {
+  color: rgb(50, 151, 50);
+  font-size: 1.25rem;
+  text-decoration: underline;
+  margin-top: 50px;
+}
